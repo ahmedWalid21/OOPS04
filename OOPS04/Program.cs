@@ -87,7 +87,7 @@ namespace OOPS04
 
             //Sealed: C# keyword[class, property,method]
 
-
+           // Employee employee = new Employee();
         }
     }
 }
