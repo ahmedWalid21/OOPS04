@@ -77,13 +77,15 @@ namespace OOPS04
             //Console.WriteLine(u2.CmtoInch(254));
             //Console.WriteLine(u3.CmtoInch(254));
 
-            Console.WriteLine(Utilites.CmtoInch(254));
-            Console.WriteLine(Utilites.CmtoInch(254));
+            //Console.WriteLine(Utilites.CmtoInch(254));
+            //Console.WriteLine(Utilites.CmtoInch(254));
 
-            Console.WriteLine(Utilites.PI);
-            Console.WriteLine(Utilites.PI);
+            //Console.WriteLine(Utilites.PI);
+            //Console.WriteLine(Utilites.PI);
 
 
+
+            //Sealed: C# keyword[class, property,method]
 
 
         }
