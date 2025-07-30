@@ -2,6 +2,7 @@
 
 using OOPS04.Mapping;
 using OOPS04.Operator_overrloading;
+using OOPS04.Static;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace OOPS04
@@ -56,16 +57,35 @@ namespace OOPS04
 
 
 
-            User u=new User();
-            //Manual Mapping
-            UserDto ud = new UserDto()
-            {
-                name = u.name,
-                email = u.email,
-                PhoneNumber = u.PhoneNumber
-            };
+            //User u=new User();
+            ////Manual Mapping
+            //UserDto ud = new UserDto()
+            //{
+            //    name = u.name,
+            //    email = u.email,
+            //    PhoneNumber = u.PhoneNumber
+            //};
 
             //Auto Mapping: Mapping Automatic
+
+            //Static: C# keyword[class, Attribute, property, constructor,method]
+
+          //  Utilites u1= new Utilites();
+           // Utilites u2= new Utilites();
+           // Utilites u3= new Utilites();
+            //Console.WriteLine(u1.CmtoInch(254));
+            //Console.WriteLine(u2.CmtoInch(254));
+            //Console.WriteLine(u3.CmtoInch(254));
+
+            Console.WriteLine(Utilites.CmtoInch(254));
+            Console.WriteLine(Utilites.CmtoInch(254));
+
+            Console.WriteLine(Utilites.PI);
+            Console.WriteLine(Utilites.PI);
+
+
+
+
         }
     }
 }
