@@ -24,16 +24,25 @@ namespace OOPS04
 
 
 
-            Complexx c = new Complexx() { Real = 5, Imag = 4 };
-            //Complexx c2 = new Complexx() { Real = 3, Imag = 1 };
+            Complexx c = new Complexx() { Real = 3, Imag = 4 };
+            Complexx c2 = new Complexx() { Real = 3, Imag = 4 };
             //Console.WriteLine(c);
             //Console.WriteLine(c2);
             //Complexx c3 = c -null;
             //Console.WriteLine(c3);
-            Console.WriteLine(c);
-            c--;
-            Console.WriteLine(c);
-        
+            // Console.WriteLine(c);
+            //  c--;
+            //  Console.WriteLine(c);
+
+            if (c ==c2)
+            {
+                Console.WriteLine("C == c2");
+            }
+            else
+            Console.WriteLine("C !=c2");
+
+
+
 
 
         }
