@@ -10,10 +10,14 @@ namespace OOPS04
             //Abstraction:
             //Abstract: C# keyword[method - class - properties]
 
-            Rectanglee r = new Rectanglee() { dim01 = 2, dim02 = 13 };
-            Console.WriteLine(r.GetArea());
-            Console.WriteLine(r.Perimeter);
+           /// Rectanglee r = new Rectanglee() { dim01 = 2, dim02 = 13 };
+           // Console.WriteLine(r.GetArea());
+           // Console.WriteLine(r.Perimeter);
             
+
+            //interface VS Abstract Class
+
+
 
 
 
