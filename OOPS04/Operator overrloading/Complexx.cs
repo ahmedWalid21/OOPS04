@@ -96,8 +96,15 @@ namespace OOPS04.Operator_overrloading
         }
 
 
+        public static explicit operator string(Complexx c)
+        {
+            return c.ToString();
+        }
 
-
+        public static explicit operator int(Complexx c)
+        {
+            return c.Real;
+        }
 
     }
 }

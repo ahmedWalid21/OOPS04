@@ -1,6 +1,8 @@
 ﻿
 
+using OOPS04.Mapping;
 using OOPS04.Operator_overrloading;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace OOPS04
 {
@@ -24,8 +26,8 @@ namespace OOPS04
 
 
 
-            Complexx c = new Complexx() { Real = 3, Imag = 4 };
-            Complexx c2 = new Complexx() { Real = 3, Imag = 4 };
+            // Complexx c = new Complexx() { Real = 3, Imag = 4 };
+            // Complexx c2 = new Complexx() { Real = 3, Imag = 4 };
             //Console.WriteLine(c);
             //Console.WriteLine(c2);
             //Complexx c3 = c -null;
@@ -34,17 +36,36 @@ namespace OOPS04
             //  c--;
             //  Console.WriteLine(c);
 
-            if (c ==c2)
+            // if (c ==c2)
+            // {
+            ///    Console.WriteLine("C == c2");
+            //}
+            /// else
+            // Console.WriteLine("C !=c2");
+
+
+            //User Defined casting opertaor
+            //Complex -----> string 
+
+            //Complexx c1 = new Complexx(){Real = 3, Imag = 2};
+            //string c = (string)c1;
+            //Console.WriteLine(c);
+
+            //int x = (int)c1;
+            //Console.WriteLine(x);
+
+
+
+            User u=new User();
+            //Manual Mapping
+            UserDto ud = new UserDto()
             {
-                Console.WriteLine("C == c2");
-            }
-            else
-            Console.WriteLine("C !=c2");
+                name = u.name,
+                email = u.email,
+                PhoneNumber = u.PhoneNumber
+            };
 
-
-
-
-
+            //Auto Mapping: Mapping Automatic
         }
     }
 }
