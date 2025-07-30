@@ -31,8 +31,24 @@ namespace OOPS04.Operator_overrloading
                 Imag = (right?.Imag ?? 0 )- (left?.Imag ?? 0)
             };
         }
-
-
-
+        //unary operator
+        public static Complexx operator ++(Complexx c)
+        {
+            if (c != null)
+            {
+                c.Real++;
+                return c;
+            }
+            return new Complexx();
+        }
+        public static Complexx operator --(Complexx c)
+        {
+            if (c != null)
+            {
+                c.Real--;
+                return c;
+            }
+            return new Complexx();
+        }
     }
 }

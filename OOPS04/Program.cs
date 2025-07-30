@@ -22,14 +22,18 @@ namespace OOPS04
             //operator overloading
 
 
-          
+
 
             Complexx c = new Complexx() { Real = 5, Imag = 4 };
-            Complexx c2 = new Complexx() { Real = 3, Imag = 1 };
+            //Complexx c2 = new Complexx() { Real = 3, Imag = 1 };
+            //Console.WriteLine(c);
+            //Console.WriteLine(c2);
+            //Complexx c3 = c -null;
+            //Console.WriteLine(c3);
             Console.WriteLine(c);
-            Console.WriteLine(c2);
-            Complexx c3 = c -null;
-            Console.WriteLine(c3);
+            c--;
+            Console.WriteLine(c);
+        
 
 
         }
